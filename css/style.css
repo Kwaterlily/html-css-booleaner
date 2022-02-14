@@ -13,7 +13,7 @@ header {
 header > img {
     height: 50px;
     margin-top: 40px;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 /* /Header */
 
@@ -35,6 +35,10 @@ div > span  {
 
 #autore, #data {
     color: gray;
+}
+
+figure {
+    margin-left: 0;
 }
 
 figcaption {
