@@ -13,3 +13,27 @@ header > img {
 }
 /* /header */
 
+/* Intestazione */
+h1 {
+    font-size: 38px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+div > span  {
+    color: #4EA0FF;
+}
+
+#data {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+#autore, #data {
+    color: gray;
+}
+/* /Intestazione */
+
+p >span {
+    background-color: yellow;
+}
