@@ -1,3 +1,7 @@
+body {
+    margin-top: 0;
+} 
+
 /* header */
 header {
     height: 100px;
@@ -32,8 +36,53 @@ div > span  {
 #autore, #data {
     color: gray;
 }
+
+figcaption {
+    font-size: 12px;
+}
 /* /Intestazione */
 
 p >span {
     background-color: yellow;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+   
+  }
+th {
+    background-color: #1FA9E5;
+    color: white;
+    width: 20%;
+}
+
+tr:nth-child(odd) {
+    background: #B1E4F2
+}
+
+th, td {
+    text-align: left;
+  }
+  /* /Table */
+
+/* footer */
+
+h2 {
+    color: gray;
+}
+.container {
+    position: relative;
+  }
+
+.titoli {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: white;
+    font-size: 26px;
 }
