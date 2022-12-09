@@ -1,3 +1,9 @@
+Reset
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin-top: 0;
 } 
@@ -13,21 +19,23 @@ header {
 header > img {
     height: 50px;
     margin-top: 40px;
-    margin-left: 10px;
+    margin-left: -125px;
     width: 720px;
 
 }
+
 /* /Header */
 
 article, footer {
-  width: 1000px;
-  margin: auto;
+  /* width: 1000px; */
+  width: 80%;
+  margin: 0 auto;
 }
 
 
 /* Intestazione */
 h1 {
-    font-size: 38px;
+    font-size: 50px;
     margin-top: 15px;
     margin-bottom: 0px;
 }
@@ -89,6 +97,7 @@ h2 {
 }
 .container {
     position: relative;
+
   }
 
 .titoli {
